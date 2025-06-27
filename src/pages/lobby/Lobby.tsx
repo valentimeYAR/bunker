@@ -89,8 +89,8 @@ function Lobby() {
         </Box>
       )}
       <Button onClick={() => {
-          localStorage.clear();
-          navigate('/');
+        localStorage.clear();
+        navigate('/');
       }}>Покинуть игру</Button>
     </Box>
   );
